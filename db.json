@@ -1,0 +1,49 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "title": "Incredible Adventure!",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "title": "Best Season Trip!",
+      "price": 368
+    },
+    {
+      "id": 3,
+      "title": "Best Season Trip!",
+      "price": 368
+    },
+    {
+      "title": "Best Season Trip!",
+      "price": 368,
+      "id": 4
+    },
+    {
+      "title": "Best Season Trip!",
+      "price": 368,
+      "id": 5
+    },
+    {
+      "title": "Best Season Trip!",
+      "price": 368,
+      "id": 6
+    },
+    {
+      "title": "Best Season Trip!",
+      "price": 368,
+      "id": 7
+    },
+    {
+      "title": "Best Season Trip!",
+      "price": 368,
+      "id": 8
+    },
+    {
+      "title": "Best Season Trip!",
+      "price": 368,
+      "id": 9
+    }
+  ]
+}
