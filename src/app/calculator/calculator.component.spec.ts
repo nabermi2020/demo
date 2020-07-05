@@ -109,5 +109,5 @@ describe('CalculatorComponent', () => {
 
   }));
 
-   
+
 });

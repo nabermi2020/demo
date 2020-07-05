@@ -1,24 +1,16 @@
-sudo: required
+language: node_js
+node_js:
+  - "10"
 dist: trusty
-language: python
-
-python: 2.7
-
+sudo: required
 addons:
-  firefox: latest
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
-      - google-chrome-beta
+  chrome: stable
 
 branches:
   only:
     - master
-
 before_script:
-  - npm install -g @angular/cli
-
+  - npm install -g --silent @angular/cli
 script:
-  - ng test
+  - npm run test
+  - npm run buildgp
