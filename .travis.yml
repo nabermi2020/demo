@@ -4,5 +4,5 @@ cache: npm
 
 install: npm i
 script:
-  - npm run e2e
+  - npm run test
   - npm run build
