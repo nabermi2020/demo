@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "buildgp": "ng build --prod --base-href",
-    "test": "ng test --code-coverage",
+    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "test-coverage": "ng test --code-coverage"
