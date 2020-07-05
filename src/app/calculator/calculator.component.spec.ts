@@ -57,7 +57,7 @@ describe('CalculatorComponent', () => {
     fixture.detectChanges();
 
     expect(component.todos.length).toBe(4);
-    expect(component.isClicked).toBe(false);
+    expect(component.isClicked).toBe(true);
 
     setTimeout(() => {
       let jobs = el.queryAll(By.css('.item'));
