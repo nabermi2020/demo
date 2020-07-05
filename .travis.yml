@@ -20,4 +20,3 @@ before_script:
 
 script:
   - ng test
-  - yarn build --prod --base-href $base_href
